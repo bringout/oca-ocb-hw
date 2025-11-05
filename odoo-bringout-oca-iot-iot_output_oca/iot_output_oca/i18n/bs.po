@@ -19,6 +19,8 @@ msgid ""
 "<i class=\"fa fa-terminal\"/>\n"
 "                    Outputs"
 msgstr ""
+"<i class=\"fa fa-terminal\"/>\n"
+"Izlazi"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__action_ids
@@ -37,7 +39,6 @@ msgstr "Primjenjuje se na"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device__communication_system_id
-#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__communication_system_id
 msgid "Communication System"
 msgstr "Komunikacijski sistem"
 
@@ -48,32 +49,28 @@ msgstr "Komunikacijska sistemska akcija"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__create_uid
-#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__create_date
-#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__device_id
-#: model:ir.model.fields.selection,name:iot_output_oca.selection__iot_communication_system__applies_to__device
 msgid "Device"
 msgstr "Uređaj"
 
 #. module: iot_output_oca
 #. odoo-python
-#: code:addons/iot_output_oca/models/iot_device_output_action.py:0
+#: code:addons/iot_output_oca/models/iot_device_output_action.py
 #, python-format
 msgid "Device and action must be of the same system"
 msgstr "Uređaj i akcija moraju biti istog sistema"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__display_name
-#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -84,7 +81,6 @@ msgstr "Neuspješan"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__id
-#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__id
 msgid "ID"
 msgstr "ID"
 
@@ -100,7 +96,6 @@ msgstr "IoT komunikacijski sistem"
 
 #. module: iot_output_oca
 #: model:ir.model,name:iot_output_oca.model_iot_device
-#: model:ir.model,name:iot_output_oca.model_iot_device_output
 msgid "IoT Device"
 msgstr "IoT uređaj"
 
@@ -116,19 +111,16 @@ msgstr "IP"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output____last_update
-#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__write_uid
-#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__write_date
-#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -154,9 +146,6 @@ msgstr "Datum u redu"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_communication_system__output_ids
-#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device__output_ids
-#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__output_id
-#: model:ir.model.fields.selection,name:iot_output_oca.selection__iot_communication_system__applies_to__output
 msgid "Output"
 msgstr "Izlaz"
 

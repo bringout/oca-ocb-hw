@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* iot_input
+# * iot_input
 #
 msgid ""
 msgstr ""
@@ -13,62 +13,59 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__action_ids
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__action_ids
 msgid "Action"
 msgstr "Akcija"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__action_count
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__action_count
 msgid "Action Count"
 msgstr "Broj akcija"
 
-#. module: iot_input
-#: model:ir.model,name:iot_input.model_iot_device_input_action
+#. module: iot_input_oca
+#: model:ir.model,name:iot_input_oca.model_iot_device_input_action
 msgid "Action of device inputs"
 msgstr "Akcija unosa uređaja"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__active
-#: model_terms:ir.ui.view,arch_db:iot_input.iot_device_input_search
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__address
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__address
 msgid "Address"
 msgstr "Adresa"
 
-#. module: iot_input
-#: code:addons/iot_input/models/iot_device.py:54
+#. module: iot_input_oca
+#: code:addons/iot_input_oca/models/iot_device.py
 #, python-format
 msgid "Address for Input is required"
 msgstr "Adresa za unos je potrebna"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input_action__args
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input_action__args
 msgid "Args"
 msgstr "Argumenti"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__call_function
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__call_function
 msgid "Call Function"
 msgstr "Pozovi funkciju"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__call_model_id
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__call_model_id
 msgid "Call Model"
 msgstr "Pozovi model"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__create_uid
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input_action__create_uid
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__create_date
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input_action__create_date
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -78,27 +75,26 @@ msgstr "Kreirano"
 msgid "Detected automatically by %s"
 msgstr "Automatski otkriveno od %s"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__device_id
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__device_id
 msgid "Device"
 msgstr "Uređaj"
 
-#. module: iot_input
-#: code:addons/iot_input/models/iot_device_input.py:61
+#. module: iot_input_oca
+#: code:addons/iot_input_oca/models/iot_device_input.py
 #, python-format
 msgid "Device cannot be found"
 msgstr "Uređaj se ne može pronaći"
 
-#. module: iot_input
-#: model:ir.model,name:iot_input.model_iot_device_input
+#. module: iot_input_oca
+#: model:ir.model,name:iot_input_oca.model_iot_device_input
 msgid "Device input"
 msgstr "Unos uređaja"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__display_name
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input_action__display_name
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: iot_input
 #: code:addons/iot_input/models/iot_device.py:136
@@ -106,68 +102,63 @@ msgstr "Prikazani naziv"
 msgid "Empty values array"
 msgstr "Prazan niz vrijednosti"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__id
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input_action__id
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__id
 msgid "ID"
 msgstr "ID"
 
-#. module: iot_input
-#: model_terms:ir.ui.view,arch_db:iot_input.iot_device_input_search
+#. module: iot_input_oca
+#: model_terms:ir.ui.view,arch_db:iot_input_oca.iot_device_input_search
 msgid "Inactive"
-msgstr "Neaktivan"
+msgstr "Neaktivno"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device__input_ids
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input_action__input_id
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device__input_ids
 msgid "Input"
 msgstr "Ulaz"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device__input_count
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device__input_count
 msgid "Input Count"
 msgstr "Broj unosa"
 
-#. module: iot_input
-#: model_terms:ir.ui.view,arch_db:iot_input.iot_device_form
+#. module: iot_input_oca
+#: model_terms:ir.ui.view,arch_db:iot_input_oca.iot_device_form
 msgid "Inputs"
 msgstr "Ulazi"
 
-#. module: iot_input
-#: model:ir.model,name:iot_input.model_iot_device
+#. module: iot_input_oca
+#: model:ir.model,name:iot_input_oca.model_iot_device
 msgid "IoT Device"
 msgstr "IoT uređaj"
 
-#. module: iot_input
-#: model_terms:ir.ui.view,arch_db:iot_input.iot_device_input_search
+#. module: iot_input_oca
+#: model_terms:ir.ui.view,arch_db:iot_input_oca.iot_device_input_search
 msgid "IoT Device Input Search"
 msgstr "Pretraga unosa IoT uređaja"
 
-#. module: iot_input
-#: model:ir.actions.act_window,name:iot_input.iot_device_input_action
+#. module: iot_input_oca
+#: model:ir.actions.act_window,name:iot_input_oca.iot_device_input_action
 msgid "IoT Inputs"
 msgstr "IoT unosi"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__lang
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__lang
 msgid "Language"
 msgstr "Jezik"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input____last_update
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input_action____last_update
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__write_uid
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input_action__write_uid
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažurirao"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__write_date
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input_action__write_date
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -176,50 +167,46 @@ msgstr "Zadnje ažurirano"
 msgid "Message"
 msgstr "Poruka"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__name
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__passphrase
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__passphrase
 msgid "Passphrase"
 msgstr "Parolska fraza"
 
-#. module: iot_input
-#: code:addons/iot_input/controller/iot_input_controller.py:43
+#. module: iot_input_oca
+#: code:addons/iot_input_oca/controller/iot_input_controller.py
 #, python-format
 msgid "Passphrase is required"
 msgstr "Parolska fraza je potrebna"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input_action__res
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input_action__res
 msgid "Res"
 msgstr "Res"
 
-#. module: iot_input
-#: model:ir.model.fields,field_description:iot_input.field_iot_device_input__serial
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__serial
 msgid "Serial"
 msgstr "Serijski broj"
 
-#. module: iot_input
-#: code:addons/iot_input/models/iot_device_input.py:47
+#. module: iot_input_oca
+#: code:addons/iot_input_oca/models/iot_device_input.py
 #, python-format
 msgid "Serial and passphrase are required"
 msgstr "Serijski broj i parolska fraza su potrebni"
 
-#. module: iot_input
-#: code:addons/iot_input/controller/iot_input_controller.py:39
+#. module: iot_input_oca
+#: code:addons/iot_input_oca/controller/iot_input_controller.py
 #, python-format
 msgid "Server Error"
-msgstr "Greška poslužitelja"
+msgstr "Greška servera"
 
-#. module: iot_input
-#: code:addons/iot_input/models/iot_device.py:74
-#: code:addons/iot_input/models/iot_device.py:87
-#: code:addons/iot_input/models/iot_device.py:117
-#: code:addons/iot_input/models/iot_device.py:123
-#: code:addons/iot_input/models/iot_device.py:129
+#. module: iot_input_oca
+#: code:addons/iot_input_oca/models/iot_device.py
 #, python-format
 msgid "Server Error. Check server logs"
 msgstr "Greška servera. Provjerite zapisnike servera"
@@ -230,21 +217,34 @@ msgstr "Greška servera. Provjerite zapisnike servera"
 msgid "Value for Input is required"
 msgstr "Vrijednost za unos je potrebna"
 
-#. module: iot_input
-#: code:addons/iot_input/controller/iot_input_controller.py:56
+#. module: iot_input_oca
+#: code:addons/iot_input_oca/controller/iot_input_controller.py
 #, python-format
 msgid "Values is not a valid JSON"
 msgstr "Vrijednosti nisu važeći JSON"
 
-#. module: iot_input
-#: code:addons/iot_input/controller/iot_input_controller.py:47
+#. module: iot_input_oca
+#: code:addons/iot_input_oca/controller/iot_input_controller.py
 #, python-format
 msgid "Values is required"
 msgstr "Vrijednosti su potrebne"
 
-#. module: iot_input
-#: code:addons/iot_input/controller/iot_input_controller.py:61
+#. module: iot_input_oca
+#: code:addons/iot_input_oca/controller/iot_input_controller.py
 #, python-format
 msgid "Values should be a JSON array of JSON objects"
 msgstr "Vrijednosti trebaju biti JSON niz JSON objekata"
 
+#. module: iot_input_oca
+#: model_terms:ir.ui.view,arch_db:iot_input_oca.iot_device_kanban
+msgid ""
+"<i class=\"fa fa-keyboard-o\"/>\n"
+"                    Inputs"
+msgstr ""
+"<i class=\"fa fa-keyboard-o\"/>\n"
+"Unosi"
+
+#. module: iot_input_oca
+#: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input_action__kwargs
+msgid "Kwargs"
+msgstr "Keyword argumenti"

@@ -15,21 +15,18 @@ msgstr ""
 
 #. module: iot_rule
 #. odoo-python
-#: code:addons/iot_rule/models/iot_rule.py:0
+#: code:addons/iot_rule/models/iot_rule.py
 #, python-format
 msgid "A recurssion was found"
 msgstr "Pronađena je rekurzija"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__action_ids
-#: model:ir.model.fields,field_description:iot_rule.field_iot_lock__action_ids
 msgid "Action"
 msgstr "Akcija"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__active
-#: model:ir.model.fields,field_description:iot_rule.field_iot_lock__active
-#: model:ir.model.fields,field_description:iot_rule.field_iot_rule__active
 msgid "Active"
 msgstr "Aktivan"
 
@@ -60,19 +57,11 @@ msgstr "Kreiraj ključ"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__create_uid
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_action__create_uid
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_wizard__create_uid
-#: model:ir.model.fields,field_description:iot_rule.field_iot_lock__create_uid
-#: model:ir.model.fields,field_description:iot_rule.field_iot_rule__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__create_date
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_action__create_date
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_wizard__create_date
-#: model:ir.model.fields,field_description:iot_rule.field_iot_lock__create_date
-#: model:ir.model.fields,field_description:iot_rule.field_iot_rule__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -88,10 +77,6 @@ msgstr "Ulaz uređaja"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__display_name
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_action__display_name
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_wizard__display_name
-#: model:ir.model.fields,field_description:iot_rule.field_iot_lock__display_name
-#: model:ir.model.fields,field_description:iot_rule.field_iot_rule__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -117,10 +102,6 @@ msgstr "Generiraj IoT bravu za ovaj unos"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__id
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_action__id
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_wizard__id
-#: model:ir.model.fields,field_description:iot_rule.field_iot_lock__id
-#: model:ir.model.fields,field_description:iot_rule.field_iot_rule__id
 msgid "ID"
 msgstr "ID"
 
@@ -141,7 +122,6 @@ msgstr "IoT ključ - Dnevnik radnji"
 
 #. module: iot_rule
 #: model:ir.actions.act_window,name:iot_rule.iot_key_wizard_act_window
-#: model_terms:ir.ui.view,arch_db:iot_rule.iot_key_wizard_form_view
 msgid "IoT Key Wizard"
 msgstr "Čarobnjak IoT ključa"
 
@@ -162,16 +142,11 @@ msgstr "IoT pravilo (veza ključ-brava)"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key_mixin__iot_key_ids
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_wizard__iot_key_id
-#: model:ir.model.fields,field_description:iot_rule.field_res_partner__iot_key_ids
-#: model:ir.model.fields,field_description:iot_rule.field_res_users__iot_key_ids
 msgid "Iot Key"
 msgstr "IoT ključ"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key_mixin__iot_key_count
-#: model:ir.model.fields,field_description:iot_rule.field_res_partner__iot_key_count
-#: model:ir.model.fields,field_description:iot_rule.field_res_users__iot_key_count
 msgid "Iot Key Count"
 msgstr "Broj IoT ključa"
 
@@ -192,8 +167,7 @@ msgstr "Ključ mora biti jedinstven"
 
 #. module: iot_rule
 #. odoo-python
-#: code:addons/iot_rule/wizards/iot_key_wizard.py:0
-#: code:addons/iot_rule/wizards/iot_key_wizard.py:0
+#: code:addons/iot_rule/wizards/iot_key_wizard.py
 #, python-format
 msgid "Key of %s"
 msgstr "Ključ od %s"
@@ -210,40 +184,26 @@ msgstr "Ključevi"
 
 #. module: iot_rule
 #: model:ir.actions.act_window,name:iot_rule.iot_key_act_window
-#: model:ir.ui.menu,name:iot_rule.iot_key_menu
 msgid "Keys (Persons)"
 msgstr "Ključevi (osobe)"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key____last_update
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_action____last_update
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_wizard____last_update
-#: model:ir.model.fields,field_description:iot_rule.field_iot_lock____last_update
-#: model:ir.model.fields,field_description:iot_rule.field_iot_rule____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__write_uid
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_action__write_uid
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_wizard__write_uid
-#: model:ir.model.fields,field_description:iot_rule.field_iot_lock__write_uid
-#: model:ir.model.fields,field_description:iot_rule.field_iot_rule__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__write_date
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_action__write_date
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_wizard__write_date
-#: model:ir.model.fields,field_description:iot_rule.field_iot_lock__write_date
-#: model:ir.model.fields,field_description:iot_rule.field_iot_rule__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_device_input__lock_id
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_action__lock_id
 msgid "Lock"
 msgstr "Zaključaj"
 
@@ -254,7 +214,6 @@ msgstr "Brave"
 
 #. module: iot_rule
 #: model:ir.actions.act_window,name:iot_rule.iot_lock_act_window
-#: model:ir.ui.menu,name:iot_rule.iot_lock_menu
 msgid "Locks (Devices)"
 msgstr "Brave (uređaji)"
 
@@ -270,8 +229,6 @@ msgstr "Mixin za vezu između zapisa i IoT ključeva"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__name
-#: model:ir.model.fields,field_description:iot_rule.field_iot_lock__name
-#: model:ir.model.fields,field_description:iot_rule.field_iot_rule__name
 msgid "Name"
 msgstr "Naziv:"
 
@@ -287,7 +244,7 @@ msgstr "Neistekli ključevi"
 
 #. module: iot_rule
 #. odoo-python
-#: code:addons/iot_rule/models/iot_key.py:0
+#: code:addons/iot_rule/models/iot_key.py
 #, python-format
 msgid "Only one key can be assigned to this model"
 msgstr "Samo jedan ključ se može dodijeliti ovom modelu"
@@ -299,13 +256,11 @@ msgstr "Nasljeđeni"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__res_id
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_wizard__res_id
 msgid "Res"
 msgstr "Res"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__res_model
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_wizard__res_model
 msgid "Res Model"
 msgstr "Res model"
 
@@ -321,11 +276,6 @@ msgstr "Pravilo"
 
 #. module: iot_rule
 #: model:ir.actions.act_window,name:iot_rule.iot_rule_act_window
-#: model:ir.actions.act_window,name:iot_rule.iot_rule_action
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key__rule_ids
-#: model:ir.model.fields,field_description:iot_rule.field_iot_lock__rule_ids
-#: model:ir.ui.menu,name:iot_rule.iot_define_rules_menu
-#: model:ir.ui.menu,name:iot_rule.iot_rule_menu
 msgid "Rules"
 msgstr "Pravila"
 
@@ -336,8 +286,6 @@ msgstr "Vrijeme"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__unique_virtual_key
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_action__unique_virtual_key
-#: model:ir.model.fields,field_description:iot_rule.field_iot_key_wizard__unique_virtual_key
 msgid "Unique Virtual Key"
 msgstr "Jedinstveni virtualni ključ"
 
@@ -348,8 +296,5 @@ msgstr "Ažuriraj"
 
 #. module: iot_rule
 #: model:ir.actions.act_window,name:iot_rule.iot_key_action_act_window
-#: model:ir.ui.menu,name:iot_rule.iot_key_action_menu
-#: model_terms:ir.ui.view,arch_db:iot_rule.iot_key_form_view
-#: model_terms:ir.ui.view,arch_db:iot_rule.iot_lock_form_view
 msgid "Usage Log"
 msgstr "Dnevnik korištenja"

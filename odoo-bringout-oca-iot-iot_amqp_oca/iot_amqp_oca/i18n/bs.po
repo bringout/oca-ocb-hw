@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* iot_amqp
+# * iot_amqp
 #
 msgid ""
 msgstr ""
@@ -13,87 +13,85 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: iot_amqp
-#: model:ir.ui.menu,name:iot_amqp.iot_amqp_host_menu
+#. module: iot_amqp_oca
+#: model:ir.ui.menu,name:iot_amqp_oca.iot_amqp_host_menu
 msgid "AMQP Hosts"
 msgstr "AMQP hostovi"
 
-#. module: iot_amqp
-#: model_terms:ir.ui.view,arch_db:iot_amqp.iot_device_output_form
+#. module: iot_amqp_oca
+#: model_terms:ir.ui.view,arch_db:iot_amqp_oca.iot_device_output_form
 msgid "AMQP configuration"
 msgstr "AMQP konfiguracija"
 
-#. module: iot_amqp
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_amqp_host__active
+#. module: iot_amqp_oca
+#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
-#. module: iot_amqp
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_device_output__amqp_exchange
+#. module: iot_amqp_oca
+#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_device_output__amqp_exchange
 msgid "Amqp Exchange"
 msgstr "Amqp exchange"
 
-#. module: iot_amqp
-#: model:ir.actions.act_window,name:iot_amqp.iot_amqp_host_act_window
-#: model:ir.model,name:iot_amqp.model_iot_amqp_host
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_device_output__amqp_host_id
+#. module: iot_amqp_oca
+#: model:ir.actions.act_window,name:iot_amqp_oca.iot_amqp_host_act_window
 msgid "Amqp Host"
 msgstr "Amqp host"
 
-#. module: iot_amqp
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_device_output__amqp_payload
+#. module: iot_amqp_oca
+#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_device_output__amqp_payload
 msgid "Amqp Payload"
 msgstr "Amqp payload"
 
-#. module: iot_amqp
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_device_output__amqp_routing_key
+#. module: iot_amqp_oca
+#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_device_output__amqp_routing_key
 msgid "Amqp Routing Key"
 msgstr "Amqp routing ključ"
 
-#. module: iot_amqp
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_amqp_host__connection
+#. module: iot_amqp_oca
+#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host__connection
 msgid "Connection"
 msgstr "Konekcija"
 
-#. module: iot_amqp
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_amqp_host__create_uid
+#. module: iot_amqp_oca
+#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
-#. module: iot_amqp
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_amqp_host__create_date
+#. module: iot_amqp_oca
+#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
-#. module: iot_amqp
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_amqp_host__display_name
+#. module: iot_amqp_oca
+#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
-#. module: iot_amqp
-#: code:addons/iot_amqp/models/iot_device_output.py:23
+#. module: iot_amqp_oca
+#: code:addons/iot_amqp_oca/models/iot_device_output.py
 #, python-format
 msgid "Exchange is required"
 msgstr "Exchange je potreban"
 
-#. module: iot_amqp
-#: code:addons/iot_amqp/models/iot_device_output.py:31
+#. module: iot_amqp_oca
+#: code:addons/iot_amqp_oca/models/iot_device_output.py
 #, python-format
 msgid "Host is required"
 msgstr "Host je potreban"
 
-#. module: iot_amqp
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_amqp_host__id
+#. module: iot_amqp_oca
+#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host__id
 msgid "ID"
 msgstr "ID"
 
-#. module: iot_amqp
-#: model:ir.model,name:iot_amqp.model_iot_device_output_action
+#. module: iot_amqp_oca
+#: model:ir.model,name:iot_amqp_oca.model_iot_device_output_action
 msgid "IoT Action"
 msgstr "IoT akcija"
 
-#. module: iot_amqp
-#: model:ir.model,name:iot_amqp.model_iot_device_output
+#. module: iot_amqp_oca
+#: model:ir.model,name:iot_amqp_oca.model_iot_device_output
 msgid "IoT Device"
 msgstr "IoT uređaj"
 
@@ -102,39 +100,43 @@ msgstr "IoT uređaj"
 msgid "IoT System.action"
 msgstr "IoT sistem.akcija"
 
-#. module: iot_amqp
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_amqp_host____last_update
+#. module: iot_amqp_oca
+#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
-#. module: iot_amqp
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_amqp_host__write_uid
+#. module: iot_amqp_oca
+#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažurirao"
 
-#. module: iot_amqp
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_amqp_host__write_date
+#. module: iot_amqp_oca
+#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
-#. module: iot_amqp
-#: model:ir.model.fields,field_description:iot_amqp.field_iot_amqp_host__name
+#. module: iot_amqp_oca
+#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
-#. module: iot_amqp
-#: code:addons/iot_amqp/models/iot_device_output.py:27
+#. module: iot_amqp_oca
+#: code:addons/iot_amqp_oca/models/iot_device_output.py
 #, python-format
 msgid "Routing Key is required"
 msgstr "Routing ključ je potreban"
 
-#. module: iot_amqp
-#: model_terms:ir.ui.view,arch_db:iot_amqp.iot_device_output_form
+#. module: iot_amqp_oca
+#: model_terms:ir.ui.view,arch_db:iot_amqp_oca.iot_device_output_form
 msgid "Run"
-msgstr "Pokrenut"
+msgstr "Pokreni"
 
-#. module: iot_amqp
-#: model_terms:ir.ui.view,arch_db:iot_amqp.iot_amqp_host_form_view
+#. module: iot_amqp_oca
+#: model_terms:ir.ui.view,arch_db:iot_amqp_oca.iot_amqp_host_form_view
 msgid "amqp://USER:PASS@HOST"
 msgstr "amqp://KORISNIK:LOZINKA@HOST"
 
+#. module: iot_amqp_oca
+#: model:ir.model,name:iot_amqp_oca.model_iot_communication_system_action
+msgid "IoT Communication System action"
+msgstr "IoT komunikacijski sistemska akcija"
