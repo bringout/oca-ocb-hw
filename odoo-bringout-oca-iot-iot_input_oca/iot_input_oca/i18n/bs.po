@@ -94,7 +94,7 @@ msgstr "Unos uređaja"
 #. module: iot_input_oca
 #: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Prikazani naziv"
 
 #. module: iot_input
 #: code:addons/iot_input/models/iot_device.py:136
@@ -150,17 +150,17 @@ msgstr "Jezik"
 #. module: iot_input_oca
 #: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnja izmjena na"
 
 #. module: iot_input_oca
 #: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: iot_input_oca
 #: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: iot_input
 #: model:ir.model,name:iot_input.model_mail_message

@@ -190,17 +190,17 @@ msgstr "Ključevi (osobe)"
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_device_input__lock_id

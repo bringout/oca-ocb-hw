@@ -112,17 +112,17 @@ msgstr "IP"
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__model
