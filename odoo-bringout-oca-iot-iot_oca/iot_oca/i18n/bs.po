@@ -78,7 +78,7 @@ msgstr "Uređaji"
 #. module: iot_oca
 #: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: iot_oca
 #: model:ir.model.fields.selection,name:iot_oca.selection__iot_device_action__status__failed
@@ -143,17 +143,17 @@ msgstr "IP"
 #. module: iot_oca
 #: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnja izmjena"
 
 #. module: iot_oca
 #: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnje ažurirao"
 
 #. module: iot_oca
 #: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: iot_oca
 #: model:res.groups,name:iot_oca.group_iot_manager
@@ -295,7 +295,7 @@ msgstr "Grupa"
 #. module: iot_oca
 #: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_search
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: iot_oca
 #: model:ir.model.fields,field_description:iot_oca.field_iot_device__ip
