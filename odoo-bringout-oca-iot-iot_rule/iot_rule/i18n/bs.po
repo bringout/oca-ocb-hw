@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: iot_rule
 #. odoo-python
-#: code:addons/iot_rule/models/iot_rule.py
+#: code:addons/iot_rule/models/iot_rule.py:0
 #, python-format
 msgid "A recurssion was found"
 msgstr "Pronađena je rekurzija"
@@ -28,7 +28,7 @@ msgstr "Akcija"
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: iot_rule
 #: model_terms:ir.ui.view,arch_db:iot_rule.iot_key_form_view
@@ -78,7 +78,7 @@ msgstr "Ulaz uređaja"
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__expiration_date
@@ -167,7 +167,7 @@ msgstr "Ključ mora biti jedinstven"
 
 #. module: iot_rule
 #. odoo-python
-#: code:addons/iot_rule/wizards/iot_key_wizard.py
+#: code:addons/iot_rule/wizards/iot_key_wizard.py:0
 #, python-format
 msgid "Key of %s"
 msgstr "Ključ od %s"
@@ -190,7 +190,7 @@ msgstr "Ključevi (osobe)"
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__write_uid
@@ -230,7 +230,7 @@ msgstr "Mixin za vezu između zapisa i IoT ključeva"
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: iot_rule
 #: model_terms:ir.ui.view,arch_db:iot_rule.iot_key_search_view
@@ -244,7 +244,7 @@ msgstr "Neistekli ključevi"
 
 #. module: iot_rule
 #. odoo-python
-#: code:addons/iot_rule/models/iot_key.py
+#: code:addons/iot_rule/models/iot_key.py:0
 #, python-format
 msgid "Only one key can be assigned to this model"
 msgstr "Samo jedan ključ se može dodijeliti ovom modelu"
@@ -252,7 +252,7 @@ msgstr "Samo jedan ključ se može dodijeliti ovom modelu"
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_rule__parent_ids
 msgid "Parent"
-msgstr "Nasljeđeni"
+msgstr "Nadređeno"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__res_id

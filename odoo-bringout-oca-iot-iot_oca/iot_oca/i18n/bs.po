@@ -24,7 +24,7 @@ msgid "Action Count"
 msgstr "Broj akcija"
 
 #. module: iot_oca
-#: code:addons/iot_oca/models/iot_communication_system_action.py
+#: code:addons/iot_oca/models/iot_communication_system_action.py:0
 #, python-format
 msgid "Action cannot be processed"
 msgstr "Akcija se ne može obraditi"
@@ -65,7 +65,7 @@ msgid "Device Identification"
 msgstr "Identifikacija uređaja"
 
 #. module: iot_oca
-#: code:addons/iot_oca/models/iot_device_action.py
+#: code:addons/iot_oca/models/iot_device_action.py:0
 #, python-format
 msgid "Device and action must be of the same system"
 msgstr "Uređaj i akcija moraju biti istog sistema"
@@ -148,7 +148,7 @@ msgstr "Zadnja izmjena"
 #. module: iot_oca
 #: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnji ažurirao"
 
 #. module: iot_oca
 #: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__write_date
@@ -163,7 +163,7 @@ msgstr "Menadžer"
 #. module: iot_oca
 #: model:ir.model.fields,field_description:iot_oca.field_iot_device__model
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 #. module: iot_oca
 #: model:res.groups,comment:iot_oca.group_iot_manager
@@ -213,12 +213,12 @@ msgstr "Pokreni"
 #. module: iot_oca
 #: model:ir.model.fields,field_description:iot_oca.field_iot_device__state
 msgid "State"
-msgstr "Država/pokrajina"
+msgstr "Entitet/Kanton"
 
 #. module: iot_oca
 #: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__status
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_device__system_id
@@ -385,12 +385,12 @@ msgstr "zadana_slika"
 #. module: iot_oca
 #: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-desktop_fa-4x
 msgid "desktop"
-msgstr "desktop"
+msgstr ""
 
 #. module: iot_oca
 #: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-laptop_fa-4x
 msgid "laptop"
-msgstr "laptop"
+msgstr ""
 
 #. module: iot_oca
 #: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-mobile_fa-6x
@@ -405,4 +405,4 @@ msgstr "televizor"
 #. module: iot_oca
 #: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-wifi_fa-4x
 msgid "wifi"
-msgstr "wifi"
+msgstr ""

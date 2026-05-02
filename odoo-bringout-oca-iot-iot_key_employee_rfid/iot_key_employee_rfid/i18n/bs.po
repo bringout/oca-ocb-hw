@@ -15,10 +15,10 @@ msgstr ""
 
 #. module: iot_key_employee_rfid
 #. odoo-python
-#: code:addons/iot_key_employee_rfid/models/hr_employee.py
+#: code:addons/iot_key_employee_rfid/models/hr_employee.py:0
 #, python-format
 msgid "%s / RFID"
-msgstr "%s / RFID"
+msgstr ""
 
 #. module: iot_key_employee_rfid
 #: model:ir.model,name:iot_key_employee_rfid.model_hr_employee

@@ -64,7 +64,7 @@ msgstr "Uređaj"
 
 #. module: iot_output_oca
 #. odoo-python
-#: code:addons/iot_output_oca/models/iot_device_output_action.py
+#: code:addons/iot_output_oca/models/iot_device_output_action.py:0
 #, python-format
 msgid "Device and action must be of the same system"
 msgstr "Uređaj i akcija moraju biti istog sistema"
@@ -72,7 +72,7 @@ msgstr "Uređaj i akcija moraju biti istog sistema"
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: iot_output_oca
 #: model:ir.model.fields.selection,name:iot_output_oca.selection__iot_device_output_action__status__failed
@@ -112,7 +112,7 @@ msgstr "IP"
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__write_uid
@@ -127,12 +127,12 @@ msgstr "Zadnje ažurirano"
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__model
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: iot_output_oca
 #: model:ir.model.fields.selection,name:iot_output_oca.selection__iot_device_output_action__status__ok
@@ -182,4 +182,4 @@ msgstr "Status"
 #. module: iot_output_oca
 #: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__status
 msgid "Status"
-msgstr "Status"
+msgstr ""
