@@ -39,7 +39,7 @@ msgid "Address"
 msgstr "Adresa"
 
 #. module: iot_input_oca
-#: code:addons/iot_input_oca/models/iot_device.py
+#: code:addons/iot_input_oca/models/iot_device.py:0
 #, python-format
 msgid "Address for Input is required"
 msgstr "Adresa za unos je potrebna"
@@ -81,7 +81,7 @@ msgid "Device"
 msgstr "Uređaj"
 
 #. module: iot_input_oca
-#: code:addons/iot_input_oca/models/iot_device_input.py
+#: code:addons/iot_input_oca/models/iot_device_input.py:0
 #, python-format
 msgid "Device cannot be found"
 msgstr "Uređaj se ne može pronaći"
@@ -155,7 +155,7 @@ msgstr "Zadnja izmjena"
 #. module: iot_input_oca
 #: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnji ažurirao"
 
 #. module: iot_input_oca
 #: model:ir.model.fields,field_description:iot_input_oca.field_iot_device_input__write_date
@@ -178,7 +178,7 @@ msgid "Passphrase"
 msgstr "Parolska fraza"
 
 #. module: iot_input_oca
-#: code:addons/iot_input_oca/controller/iot_input_controller.py
+#: code:addons/iot_input_oca/controller/iot_input_controller.py:0
 #, python-format
 msgid "Passphrase is required"
 msgstr "Parolska fraza je potrebna"
@@ -194,19 +194,19 @@ msgid "Serial"
 msgstr "Serijski broj"
 
 #. module: iot_input_oca
-#: code:addons/iot_input_oca/models/iot_device_input.py
+#: code:addons/iot_input_oca/models/iot_device_input.py:0
 #, python-format
 msgid "Serial and passphrase are required"
 msgstr "Serijski broj i parolska fraza su potrebni"
 
 #. module: iot_input_oca
-#: code:addons/iot_input_oca/controller/iot_input_controller.py
+#: code:addons/iot_input_oca/controller/iot_input_controller.py:0
 #, python-format
 msgid "Server Error"
 msgstr "Greška servera"
 
 #. module: iot_input_oca
-#: code:addons/iot_input_oca/models/iot_device.py
+#: code:addons/iot_input_oca/models/iot_device.py:0
 #, python-format
 msgid "Server Error. Check server logs"
 msgstr "Greška servera. Provjerite zapisnike servera"
@@ -218,19 +218,19 @@ msgid "Value for Input is required"
 msgstr "Vrijednost za unos je potrebna"
 
 #. module: iot_input_oca
-#: code:addons/iot_input_oca/controller/iot_input_controller.py
+#: code:addons/iot_input_oca/controller/iot_input_controller.py:0
 #, python-format
 msgid "Values is not a valid JSON"
 msgstr "Vrijednosti nisu važeći JSON"
 
 #. module: iot_input_oca
-#: code:addons/iot_input_oca/controller/iot_input_controller.py
+#: code:addons/iot_input_oca/controller/iot_input_controller.py:0
 #, python-format
 msgid "Values is required"
 msgstr "Vrijednosti su potrebne"
 
 #. module: iot_input_oca
-#: code:addons/iot_input_oca/controller/iot_input_controller.py
+#: code:addons/iot_input_oca/controller/iot_input_controller.py:0
 #, python-format
 msgid "Values should be a JSON array of JSON objects"
 msgstr "Vrijednosti trebaju biti JSON niz JSON objekata"

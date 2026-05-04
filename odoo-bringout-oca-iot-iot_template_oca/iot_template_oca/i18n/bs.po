@@ -76,7 +76,7 @@ msgstr "Ulaz uređaja"
 #. module: iot_template_oca
 #: model:ir.model.fields,field_description:iot_template_oca.field_iot_device_configure__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: iot_template_oca
 #: model:ir.model.fields,field_description:iot_template_oca.field_iot_template__group_id
@@ -166,7 +166,7 @@ msgstr "Ključevi"
 #. module: iot_template_oca
 #: model:ir.model.fields,field_description:iot_template_oca.field_iot_device_configure____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: iot_template_oca
 #: model:ir.model.fields,field_description:iot_template_oca.field_iot_device_configure__write_uid
@@ -181,7 +181,7 @@ msgstr "Zadnje ažurirano"
 #. module: iot_template_oca
 #: model:ir.model.fields,field_description:iot_template_oca.field_iot_template__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: iot_template_oca
 #: model:ir.model.fields,field_description:iot_template_oca.field_iot_template__output_ids
@@ -206,7 +206,7 @@ msgstr "Parametri"
 #. module: iot_template_oca
 #: model:ir.model.fields,field_description:iot_template_oca.field_iot_template__parent_id
 msgid "Parent"
-msgstr "Nasljeđeni"
+msgstr "Nadređeno"
 
 #. module: iot_template_oca
 #: model:ir.model.fields,field_description:iot_template_oca.field_iot_template__parent_path

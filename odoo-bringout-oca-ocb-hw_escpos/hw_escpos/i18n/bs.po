@@ -16,27 +16,27 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: hw_escpos
-#: code:addons/hw_escpos/controllers/main.py
+#: code:addons/hw_escpos/controllers/main.py:0
 #, python-format
 msgid "         TOTAL"
 msgstr "         UKUPNO"
 
 #. module: hw_escpos
-#: code:addons/hw_escpos/controllers/main.py
+#: code:addons/hw_escpos/controllers/main.py:0
 #, python-format
 msgid "        CHANGE"
 msgstr "        PROMJENA"
 
 # taken from hr.po
 #. module: hw_escpos
-#: code:addons/hw_escpos/controllers/main.py
+#: code:addons/hw_escpos/controllers/main.py:0
 #, python-format
 msgid "Discounts"
 msgstr "Popusti"
 
 # taken from hr.po
 #. module: hw_escpos
-#: code:addons/hw_escpos/controllers/main.py
+#: code:addons/hw_escpos/controllers/main.py:0
 #, python-format
 msgid "Subtotal"
-msgstr "Sub-ukupno"
+msgstr "Podzbroj"

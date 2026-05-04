@@ -69,13 +69,13 @@ msgid "Display Name"
 msgstr "Naziv za prikaz"
 
 #. module: iot_amqp_oca
-#: code:addons/iot_amqp_oca/models/iot_device_output.py
+#: code:addons/iot_amqp_oca/models/iot_device_output.py:0
 #, python-format
 msgid "Exchange is required"
 msgstr "Exchange je potreban"
 
 #. module: iot_amqp_oca
-#: code:addons/iot_amqp_oca/models/iot_device_output.py
+#: code:addons/iot_amqp_oca/models/iot_device_output.py:0
 #, python-format
 msgid "Host is required"
 msgstr "Host je potreban"
@@ -108,7 +108,7 @@ msgstr "Zadnja izmjena"
 #. module: iot_amqp_oca
 #: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnji ažurirao"
 
 #. module: iot_amqp_oca
 #: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host__write_date
@@ -121,7 +121,7 @@ msgid "Name"
 msgstr "Naziv"
 
 #. module: iot_amqp_oca
-#: code:addons/iot_amqp_oca/models/iot_device_output.py
+#: code:addons/iot_amqp_oca/models/iot_device_output.py:0
 #, python-format
 msgid "Routing Key is required"
 msgstr "Routing ključ je potreban"
