@@ -1,408 +1,411 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * iot
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Odoo Server master (iot_oca)\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"Language-Team: Bosnian\n"
+"Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__action_ids
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__action_ids
+#, []
 msgid "Action"
 msgstr "Akcija"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__action_count
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__action_count
+#, []
 msgid "Action Count"
 msgstr "Broj akcija"
 
-#. module: iot_oca
-#: code:addons/iot_oca/models/iot_communication_system_action.py:0
-#, python-format
+# model: code:addons/iot_oca/models/iot_communication_system_action.py
+#, ["python-format"]
 msgid "Action cannot be processed"
 msgstr "Akcija se ne može obraditi"
 
-#. module: iot_oca
-#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_form
+# model: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_form
+#, []
 msgid "Actions"
 msgstr "Akcije"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__active
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__active
+#, []
 msgid "Active"
 msgstr "Aktivno"
 
-#. module: iot
-#: model:ir.ui.menu,name:iot.iot_config_device_menu
-msgid "Config Devices"
-msgstr "Konfiguriši uređaje"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__create_uid
-msgid "Created by"
-msgstr "Kreirao"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__create_date
-msgid "Created on"
-msgstr "Kreirano"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__device_ids
-msgid "Device"
-msgstr "Uređaj"
-
-#. module: iot
-#: model:ir.model.fields,field_description:iot.field_iot_device__device_identification
-msgid "Device Identification"
-msgstr "Identifikacija uređaja"
-
-#. module: iot_oca
-#: code:addons/iot_oca/models/iot_device_action.py:0
-#, python-format
-msgid "Device and action must be of the same system"
-msgstr "Uređaj i akcija moraju biti istog sistema"
-
-#. module: iot_oca
-#: model:ir.ui.menu,name:iot_oca.iot_device_menu
-msgid "Devices"
-msgstr "Uređaji"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__display_name
-msgid "Display Name"
-msgstr "Naziv za prikaz"
-
-#. module: iot_oca
-#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device_action__status__failed
-msgid "Failed"
-msgstr "Neuspjelo"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__id
-msgid "ID"
-msgstr "ID"
-
-#. module: iot_oca
-#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_search
-msgid "Inactive"
-msgstr "Neaktivno"
-
-#. module: iot_oca
-#: model:ir.module.category,name:iot_oca.ir_module_category_iot
-msgid "IoT"
-msgstr "IoT"
-
-#. module: iot_oca
-#: model:ir.model,name:iot_oca.model_iot_device_action
-msgid "IoT Action"
-msgstr "IoT akcija"
-
-#. module: iot_oca
-#: model:ir.model,name:iot_oca.model_iot_device
-msgid "IoT Device"
-msgstr "IoT uređaj"
-
-#. module: iot_oca
-#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_search
-msgid "IoT Device Search"
-msgstr "Pretraga IoT uređaja"
-
-#. module: iot_oca
-#: model:ir.actions.act_window,name:iot_oca.iot_device_action
-msgid "IoT Devices"
-msgstr "IoT uređaji"
-
-#. module: iot_oca
-#: model:ir.actions.act_window,name:iot_oca.iot_system_action
-msgid "IoT System"
-msgstr "IoT sistem"
-
-#. module: iot
-#: model:ir.model,name:iot.model_iot_system_action
-msgid "IoT System.action"
-msgstr "IoT sistem.akcija"
-
-#. module: iot_oca
-#: model:res.groups,name:iot_oca.group_iot_user
-msgid "IoT User"
-msgstr "IoT korisnik"
-
-#. module: iot
-#: model:ir.model.fields,field_description:iot.field_iot_device__ip
-msgid "Ip"
-msgstr "IP"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system____last_update
-msgid "Last Modified on"
-msgstr "Zadnja izmjena"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__write_uid
-msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__write_date
-msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
-
-#. module: iot_oca
-#: model:res.groups,name:iot_oca.group_iot_manager
-msgid "Manager"
-msgstr "Menadžer"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__model
-msgid "Model"
-msgstr ""
-
-#. module: iot_oca
-#: model:res.groups,comment:iot_oca.group_iot_manager
-msgid "Module administrator, able to modify configuration data."
-msgstr "Administrator modula, može mijenjati konfiguracijske podatke."
-
-#. module: iot_oca
-#: model:res.groups,comment:iot_oca.group_iot_user
-msgid "Module user."
-msgstr "Korisnik modula."
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__name
-msgid "Name"
-msgstr "Naziv"
-
-#. module: iot_oca
-#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device_action__status__ok
-msgid "Ok"
-msgstr "U redu"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__date_ok
-msgid "Ok date"
-msgstr "Datum u redu"
-
-#. module: iot
-#: model:ir.model.fields,field_description:iot.field_iot_device__passphrase
-msgid "Passphrase"
-msgstr "Parolska fraza"
-
-#. module: iot_oca
-#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device_action__status__pending
-msgid "Pending"
-msgstr "Na čekanju"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__result
-msgid "Result"
-msgstr "Rezultat"
-
-#. module: iot_oca
-#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_action_tree
-msgid "Run"
-msgstr "Pokreni"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__state
-msgid "State"
-msgstr "Entitet/Kanton"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__status
-msgid "Status"
-msgstr ""
-
-#. module: iot
-#: model:ir.model.fields,field_description:iot.field_iot_device__system_id
-#: model:ir.model.fields,field_description:iot.field_iot_system_action__system_id
-msgid "System"
-msgstr "Sistem"
-
-#. module: iot
-#: model:ir.model.fields,field_description:iot.field_iot_device_action__system_action_id
-#: model:ir.model.fields,field_description:iot.field_iot_system__system_action_ids
-msgid "System Action"
-msgstr "Sistemska akcija"
-
-#. module: iot_oca
-#: model:ir.ui.menu,name:iot_oca.iot_system_menu
-msgid "Systems"
-msgstr "Sistemi"
-
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__color
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__color
+#, []
 msgid "Color"
 msgstr "Boja"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device_tag__color
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device_tag__color
+#, []
 msgid "Color Index"
 msgstr "Indeks boje"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system_action__communication_system_id
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_communication_system_action__communication_system_id
+#, []
 msgid "Communication System"
 msgstr "Komunikacijski sistem"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__communication_system_action_ids
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__communication_system_action_ids
+#, []
 msgid "Communication System Action"
 msgstr "Komunikacijska sistemska akcija"
 
-#. module: iot_oca
-#: model:ir.ui.menu,name:iot_oca.iot_configuration_menu
+# model: model:ir.ui.menu,name:iot_oca.iot_configuration_menu
+#, []
 msgid "Configuration"
 msgstr "Konfiguracija"
 
-#. module: iot_oca
-#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__create_uid
+#, []
+msgid "Created by"
+msgstr "Kreirao"
+
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__create_date
+#, []
+msgid "Created on"
+msgstr "Kreirano"
+
+# model: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+#, []
 msgid "Delete"
 msgstr "Obriši"
 
-#. module: iot_oca
-#: model:ir.actions.act_window,name:iot_oca.iot_device_group_act_window
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__device_ids
+#, []
+msgid "Device"
+msgstr "Uređaj"
+
+# model: model:ir.actions.act_window,name:iot_oca.iot_device_group_act_window
+#, []
 msgid "Device Group"
 msgstr "Grupa uređaja"
 
-#. module: iot_oca
-#: model:ir.actions.act_window,name:iot_oca.iot_device_tag_act_window
+# model: model:ir.actions.act_window,name:iot_oca.iot_device_tag_act_window
+#, []
 msgid "Device Tag"
 msgstr "Oznaka uređaja"
 
-#. module: iot_oca
-#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+# model: code:addons/iot_oca/models/iot_device_action.py
+#, ["python-format"]
+msgid "Device and action must be of the same system"
+msgstr "Uređaj i akcija moraju biti istog sistema"
+
+# model: model:ir.ui.menu,name:iot_oca.iot_device_menu
+#, []
+msgid "Devices"
+msgstr "Uređaji"
+
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__display_name
+#, []
+msgid "Display Name"
+msgstr "Naziv za prikaz"
+
+# model: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+#, []
 msgid "Dropdown menu"
 msgstr "Padajući meni"
 
-#. module: iot_oca
-#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+# model: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+#, []
 msgid "Edit..."
 msgstr "Uredi..."
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__group_id
+# model:
+# model:ir.model.fields.selection,name:iot_oca.selection__iot_device_action__status__failed
+#, []
+msgid "Failed"
+msgstr "Neuspjelo"
+
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__group_id
+#, []
 msgid "Group"
 msgstr "Grupa"
 
-#. module: iot_oca
-#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_search
+# model: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_search
+#, []
 msgid "Group By"
 msgstr "Grupiši po"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__ip
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__id
+#, []
+msgid "ID"
+msgstr "ID"
+
+# model: model:ir.model.fields,field_description:iot_oca.field_iot_device__ip
+#, []
 msgid "IP"
 msgstr "IP"
 
-#. module: iot_oca
-#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+# model: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+#, []
 msgid "IP:"
 msgstr "IP:"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__icon
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__icon
+#, []
 msgid "Icon"
 msgstr "Ikona"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__image_1920
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__image_1920
+#, []
 msgid "Image"
 msgstr "Slika"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__image_1024
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__image_1024
+#, []
 msgid "Image 1024"
 msgstr "Slika 1024"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__image_128
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__image_128
+#, []
 msgid "Image 128"
 msgstr "Slika 128"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__image_256
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__image_256
+#, []
 msgid "Image 256"
 msgstr "Slika 256"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__image_512
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__image_512
+#, []
 msgid "Image 512"
 msgstr "Slika 512"
 
-#. module: iot_oca
-#: model:ir.model,name:iot_oca.model_iot_communication_system
+# model: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_search
+#, []
+msgid "Inactive"
+msgstr "Neaktivno"
+
+# model: model:ir.module.category,name:iot_oca.ir_module_category_iot
+#, []
+msgid "IoT"
+msgstr "IoT"
+
+# model: model:ir.model,name:iot_oca.model_iot_device_action
+#, []
+msgid "IoT Action"
+msgstr "IoT akcija"
+
+# model: model:ir.model,name:iot_oca.model_iot_communication_system
+#, []
 msgid "IoT Communication System"
 msgstr "IoT komunikacijski sistem"
 
-#. module: iot_oca
-#: model:ir.model,name:iot_oca.model_iot_communication_system_action
+# model: model:ir.model,name:iot_oca.model_iot_communication_system_action
+#, []
 msgid "IoT Communication System action"
 msgstr "IoT komunikacijski sistemska akcija"
 
-#. module: iot_oca
-#: model:ir.model,name:iot_oca.model_iot_device_group
+# model: model:ir.model,name:iot_oca.model_iot_device
+#, []
+msgid "IoT Device"
+msgstr "IoT uređaj"
+
+# model: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_search
+#, []
+msgid "IoT Device Search"
+msgstr "Pretraga IoT uređaja"
+
+# model: model:ir.actions.act_window,name:iot_oca.iot_device_action
+#, []
+msgid "IoT Devices"
+msgstr "IoT uređaji"
+
+# model: model:ir.actions.act_window,name:iot_oca.iot_system_action
+#, []
+msgid "IoT System"
+msgstr "IoT sistem"
+
+# model: model:res.groups,name:iot_oca.group_iot_user
+#, []
+msgid "IoT User"
+msgstr "IoT korisnik"
+
+# model: model:ir.model,name:iot_oca.model_iot_device_group
+#, []
 msgid "Iot Group"
 msgstr "IoT grupa"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__last_contact_date
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__last_contact_date
+#, []
 msgid "Last Contact Date"
 msgstr "Datum poslednjeg kontakta"
 
-#. module: iot_oca
-#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_communication_system____last_update
+#, []
+msgid "Last Modified on"
+msgstr "Zadnja izmjena"
+
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__write_uid
+#, []
+msgid "Last Updated by"
+msgstr "Posljednji put ažurirao"
+
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__write_date
+#, []
+msgid "Last Updated on"
+msgstr "Posljednji put ažurirano"
+
+# model: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+#, []
 msgid "Last contact:"
 msgstr "Poslednji kontakt:"
 
-#. module: iot_oca
-#: model:ir.model.fields,field_description:iot_oca.field_iot_device__tag_ids
+# model: model:res.groups,name:iot_oca.group_iot_manager
+#, []
+msgid "Manager"
+msgstr "Menadžer"
+
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__model
+#, []
+msgid "Model"
+msgstr "Model"
+
+# model: model:res.groups,comment:iot_oca.group_iot_manager
+#, []
+msgid "Module administrator, able to modify configuration data."
+msgstr "Administrator modula, može mijenjati konfiguracijske podatke."
+
+# model: model:res.groups,comment:iot_oca.group_iot_user
+#, []
+msgid "Module user."
+msgstr "Korisnik modula."
+
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__name
+#, []
+msgid "Name"
+msgstr "Naziv"
+
+# model:
+# model:ir.model.fields.selection,name:iot_oca.selection__iot_device_action__status__ok
+#, []
+msgid "Ok"
+msgstr "U redu"
+
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device_action__date_ok
+#, []
+msgid "Ok date"
+msgstr "Datum u redu"
+
+# model:
+# model:ir.model.fields.selection,name:iot_oca.selection__iot_device_action__status__pending
+#, []
+msgid "Pending"
+msgstr "Na čekanju"
+
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device_action__result
+#, []
+msgid "Result"
+msgstr "Rezultat"
+
+# model: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_action_tree
+#, []
+msgid "Run"
+msgstr "Pokreni"
+
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__state
+#, []
+msgid "State"
+msgstr "Stanje"
+
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device_action__status
+#, []
+msgid "Status"
+msgstr "Status"
+
+# model: model:ir.ui.menu,name:iot_oca.iot_system_menu
+#, []
+msgid "Systems"
+msgstr "Sistemi"
+
+# model:
+# model:ir.model.fields,field_description:iot_oca.field_iot_device__tag_ids
+#, []
 msgid "Tag"
 msgstr "Oznaka"
 
-#. module: iot_oca
-#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+# model: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+#, []
 msgid "Unknown device"
 msgstr "Nepoznat uređaj"
 
-#. module: iot_oca
-#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-archive_fa-4x
+# model:
+# model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-
+# archive_fa-4x
+#, []
 msgid "archive"
 msgstr "arhiv"
 
-#. module: iot_oca
-#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+# model: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+#, []
 msgid "default_image"
 msgstr "zadana_slika"
 
-#. module: iot_oca
-#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-desktop_fa-4x
+# model:
+# model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-
+# desktop_fa-4x
+#, []
 msgid "desktop"
-msgstr ""
+msgstr "desktop"
 
-#. module: iot_oca
-#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-laptop_fa-4x
+# model:
+# model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-
+# laptop_fa-4x
+#, []
 msgid "laptop"
-msgstr ""
+msgstr "laptop"
 
-#. module: iot_oca
-#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-mobile_fa-6x
+# model:
+# model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-
+# mobile_fa-6x
+#, []
 msgid "mobile"
 msgstr "mobilni"
 
-#. module: iot_oca
-#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-television_fa-4x
+# model:
+# model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-
+# television_fa-4x
+#, []
 msgid "television"
 msgstr "televizor"
 
-#. module: iot_oca
-#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-wifi_fa-4x
+# model:
+# model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-
+# wifi_fa-4x
+#, []
 msgid "wifi"
-msgstr ""
+msgstr "wifi"
