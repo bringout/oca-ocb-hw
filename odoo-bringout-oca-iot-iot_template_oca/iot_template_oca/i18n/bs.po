@@ -40,7 +40,7 @@ msgstr "Pozovi model"
 # model: model_terms:ir.ui.view,arch_db:iot_template_oca.configure_form
 #, []
 msgid "Close"
-msgstr "Amortizovano"
+msgstr "Zatvori"
 
 # model:
 # model:ir.model.fields,field_description:iot_template_oca.field_iot_template_output__communication_system_id
