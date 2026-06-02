@@ -38,7 +38,7 @@ msgstr "Ovlašćene grupe brave"
 #. module: iot_rule
 #: model_terms:ir.ui.view,arch_db:iot_rule.iot_key_wizard_form_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: iot_rule
 #: model:ir.model,name:iot_rule.model_res_partner
@@ -78,7 +78,7 @@ msgstr "Ulaz uređaja"
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__expiration_date
@@ -190,17 +190,17 @@ msgstr "Ključevi (osobe)"
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_key__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: iot_rule
 #: model:ir.model.fields,field_description:iot_rule.field_iot_device_input__lock_id
