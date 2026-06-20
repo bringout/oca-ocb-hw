@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# pylint: skip-file
 
 from __future__ import print_function
 import logging
@@ -10,6 +11,7 @@ import subprocess
 import time
 import netifaces as ni
 import traceback
+
 
 escpos = printer = None
 try:
@@ -150,9 +152,8 @@ class EscposDriver(Thread):
             return
         while True:
             error = True
+            timestamp, task, data = self.queue.get(True)
             try:
-                timestamp, task, data = self.queue.get(True)
-
                 printer = self.get_escpos_printer()
 
                 if printer == None:
