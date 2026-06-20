@@ -2,12 +2,14 @@
 name = "odoo-bringout-oca-iot-iot_rule"
 version = "16.0.0"
 description = "IoT Rule - 
-        Define IoT Rules (Keys that control Inputs)"
+        
+        Define IoT Rules (Keys that control Inputs)
+        "
 authors = [
     { name = "Ernad Husremovic", email = "hernad@bring.out.ba" }
 ]
 dependencies = [
-    "odoo-bringout-oca-iot-iot_input_oca>=16.0.0",
+    "odoo-bringout-oca-iot-iot_input_oca>=17.0.0",
     "requests>=2.25.1"
 ]
 readme = "README.md"
@@ -17,14 +19,14 @@ classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.11", 
+    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Office/Business",
 ]
 
 [project.urls]
-homepage = "https://github.com/bringout/0"
-repository = "https://github.com/bringout/0"
+homepage = "https://git.hodi.ba/bringout/project-0"
+repository = "https://git.hodi.ba/bringout/project-0"
 
 [build-system]
 requires = ["hatchling"]

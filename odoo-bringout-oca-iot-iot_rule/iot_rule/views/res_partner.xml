@@ -12,7 +12,7 @@
                     class="oe_stat_button"
                     name="action_view_iot_key"
                     type="object"
-                    attrs="{'invisible': [('iot_key_count', '=', 0)]}"
+                    invisible="iot_key_count == 0"
                     icon="fa-key"
                     groups="iot_oca.group_iot_user"
                 >
